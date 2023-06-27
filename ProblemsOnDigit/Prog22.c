@@ -20,6 +20,7 @@ bool CheckArmstrong(int no)
 
     while (no != 0)
     {
+        iMult=1;
         int iCnt = 0;
         iDigit = iDigit % 10;
         for (iCnt = 1; iCnt <= iDigitCnt; iCnt++)
